@@ -1,0 +1,13 @@
+{
+  "name": "footage-to-film",
+  "description": "Turn a folder of phone videos and photos into a finished short film, rendered on your Mac.",
+  "owner": { "name": "MWEJ" },
+  "plugins": [
+    {
+      "name": "footage-to-film",
+      "source": "./",
+      "description": "A skill that turns a folder of phone videos and photos into a finished short film with music, captions for spoken lines and titles, edited in Remotion and rendered on your Mac.",
+      "category": "media"
+    }
+  ]
+}

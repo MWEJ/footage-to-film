@@ -1,0 +1,7 @@
+node_modules/
+.DS_Store
+test/tmp/
+skill/kit/out/
+skill/kit/public/*
+!skill/kit/public/.gitkeep
+__pycache__/

@@ -1,0 +1,8 @@
+{
+  "name": "footage-to-film",
+  "description": "Turn a folder of phone videos and photos into a finished short film with music, captions for spoken lines and titles, rendered on your Mac.",
+  "author": { "name": "MWEJ" },
+  "repository": "https://github.com/MWEJ/footage-to-film",
+  "license": "MIT",
+  "skills": ["./skill"]
+}

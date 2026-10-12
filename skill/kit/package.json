@@ -1,0 +1,44 @@
+{
+  "name": "film-edit",
+  "version": "1.0.0",
+  "description": "The edit of one film: a Remotion project made from the footage-to-film kit",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@remotion/bundler": "4.0.532",
+    "@remotion/cli": "4.0.532",
+    "@remotion/google-fonts": "4.0.532",
+    "@remotion/media": "4.0.532",
+    "@remotion/renderer": "4.0.532",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.532"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "19.2.7",
+    "tsx": "^4.23.15",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "remotion": "remotion",
+    "studio": "remotion studio",
+    "test": "tsx --test src/*.test.ts src/components/*.test.ts scripts/lib/*.test.ts",
+    "lint": "tsc --noEmit",
+    "changes": "tsx scripts/changes.ts",
+    "link": "tsx scripts/link.ts",
+    "list": "tsx scripts/list.ts",
+    "check": "tsx scripts/check.ts",
+    "compare": "tsx scripts/compare.ts",
+    "still": "tsx scripts/still.ts",
+    "sheet": "tsx scripts/sheet.ts",
+    "fonts": "tsx scripts/fonts.ts",
+    "looks": "tsx scripts/looks.ts",
+    "draft": "tsx scripts/film.ts --draft",
+    "film": "tsx scripts/film.ts",
+    "qc": "tsx scripts/qc.ts",
+    "preview": "tsx scripts/preview.ts",
+    "speech": "tsx scripts/speech.ts",
+    "stems": "tsx scripts/stems.ts"
+  }
+}
